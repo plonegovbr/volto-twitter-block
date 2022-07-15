@@ -1,6 +1,6 @@
 {
   "name": "@plonegovbr/volto-twitter-block",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Volto add-on providing blocks to integrate Twitter elements to your site.",
   "author": "PloneGov-BR",
   "homepage": "https://github.com/plonegovbr/volto-twitter-block",
