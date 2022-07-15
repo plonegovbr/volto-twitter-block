@@ -1,7 +1,7 @@
 import React from 'react';
 import { BlockDataForm } from '@plone/volto/components';
 import { tweetSchema } from './schema';
-import { extractTweetId } from '../../../helpers';
+import { extractTweetId } from '@plonegovbr/volto-twitter-block/helpers';
 import { useIntl } from 'react-intl';
 
 const TweetBlockData = (props) => {

@@ -85,7 +85,7 @@ LanguagePT.args = {
 };
 
 export default {
-  title: 'Public/Blocks/TweetBlock',
+  title: 'Public/Blocks/TweetBlock/View',
   component: TweetView,
   argTypes: {
     tweetId: {

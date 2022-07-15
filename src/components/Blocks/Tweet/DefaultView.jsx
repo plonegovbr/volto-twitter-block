@@ -1,5 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
+import PropTypes from 'prop-types';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 const SIZES = {
@@ -33,6 +34,33 @@ const TweetView = (props) => {
       </div>
     )
   );
+};
+
+/**
+ * Property types.
+ * @property {Object} propTypes Property types.
+ * @static
+ */
+TweetView.propTypes = {
+  tweetId: PropTypes.string.isRequired,
+  align: PropTypes.string,
+  size: PropTypes.string,
+  theme: PropTypes.string,
+  lang: PropTypes.string,
+  dnt: PropTypes.bool,
+};
+
+/**
+ * Default properties.
+ * @property {Object} defaultProps Default properties.
+ * @static
+ */
+TweetView.defaultProps = {
+  align: 'center',
+  size: 'l',
+  theme: 'dark',
+  lang: 'en',
+  dnt: true,
 };
 
 export default TweetView;
