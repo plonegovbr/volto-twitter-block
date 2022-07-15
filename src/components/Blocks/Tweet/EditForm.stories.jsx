@@ -16,12 +16,12 @@ const StoryComponent = injectIntl(({ children, ...args }) => {
 
 export const Form = StoryComponent.bind({});
 Form.args = {
-  value: ""
+  value: '',
 };
 
 export const FormWithValue = StoryComponent.bind({});
 FormWithValue.args = {
-  value: "1542568225527005184",
+  value: '1542568225527005184',
 };
 
 export const FormWithErrors = StoryComponent.bind({});
@@ -29,7 +29,6 @@ FormWithErrors.args = {
   value: 'foo',
   invalidValue: true,
 };
-
 
 export default {
   title: 'Public/Blocks/TweetBlock/Edit',

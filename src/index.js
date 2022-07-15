@@ -11,11 +11,10 @@ const applyConfig = (config) => {
   ];
   // Check for @kitconcept/volto-blocks-grid
   const gridBlock = config.blocks.blocksConfig.__grid;
-  console.log(config.blocks.blocksConfig);
   if (gridBlock !== undefined) {
     config.blocks.blocksConfig.__grid.gridAllowedBlocks = [
       ...gridBlock.gridAllowedBlocks,
-      'tweetBlock'
+      'tweetBlock',
     ];
   }
   return config;
