@@ -58,7 +58,7 @@ TweetView.propTypes = {
 TweetView.defaultProps = {
   align: 'center',
   size: 'l',
-  theme: 'dark',
+  theme: 'light',
   lang: 'en',
   dnt: true,
 };
