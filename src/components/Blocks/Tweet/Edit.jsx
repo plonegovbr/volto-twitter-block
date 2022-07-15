@@ -58,7 +58,7 @@ const TweetBlockEdit = (props) => {
   ) : (
     <Message>
       <center>
-        <img src={twitterSVG} alt="" className="blockIcon"/>
+        <img src={twitterSVG} alt="" className="blockIcon" />
       </center>
       <div className="toolbar-inner">
         <Input

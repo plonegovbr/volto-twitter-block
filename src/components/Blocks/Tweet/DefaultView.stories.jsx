@@ -4,7 +4,6 @@ import TweetView from './DefaultView';
 import { langCodes } from './languages';
 import Wrapper from '@plone/volto/storybook';
 
-
 const StoryComponent = injectIntl(({ children, ...args }) => {
   return (
     <Wrapper>

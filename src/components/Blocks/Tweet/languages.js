@@ -35,4 +35,6 @@ export const languages = [
   ['vi', 'Vietnamese'],
 ];
 
-export const langCodes = languages.map((item) => {return item[0]});
+export const langCodes = languages.map((item) => {
+  return item[0];
+});

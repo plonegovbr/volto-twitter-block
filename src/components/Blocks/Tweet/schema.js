@@ -2,7 +2,6 @@ import { defineMessages } from 'react-intl';
 import { languages } from './languages';
 import config from '@plone/volto/registry';
 
-
 const messages = defineMessages({
   tweetBlock: {
     id: 'Tweet',
@@ -54,7 +53,6 @@ const THEMES = [
   ['dark', messages.themeDark],
   ['light', messages.themeLight],
 ];
-
 
 export const tweetSchema = (props) => {
   const defaultTheme = config.blocks?.blocksConfig?.tweetBlock?.defaultTheme;
